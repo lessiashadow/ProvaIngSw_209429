@@ -59,10 +59,12 @@ public class MyListUtilTest {
     @Before
     public void beforeAnyTests() {
         System.out.println(LocalDateTime.now());
+        System.out.println("------------------------");
     }
 
     @After
     public void afterAnyTest() {
         System.out.println(LocalDateTime.now());
+        System.out.println("------------------------");
     }
 }
